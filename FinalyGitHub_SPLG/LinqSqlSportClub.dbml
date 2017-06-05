@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Sport Club" Class="LinqSqlSportClubDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=KIRILLKAP\SQLEXPRESS;Initial Catalog=&quot;Sport Club&quot;;Integrated Security=True" SettingsObjectName="SemesterSportsСlub.Properties.Settings" SettingsPropertyName="Sport_ClubConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Trainers" Member="Trainers">
+    <Type Name="Trainers">
+      <Column Name="id_trainer" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="last_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="first_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="second_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="discription_of_trainer" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="photo_trainer" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="count_of_client" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Methods" Member="Methods">
+    <Type Name="Methods">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NameMethod" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DescriptionOfProcedure" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Services" Member="Services">
+    <Type Name="Services">
+      <Column Name="id_service" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NameService" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PriceOfService" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DiscriptionOfService" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Discounts" Member="Discounts">
+    <Type Name="Discounts">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NameDiscount" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DiscountInpercent" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Period" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DiscriptionOfDiscount" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Authorization]" Member="Authorization">
+    <Type Name="Authorization">
+      <Column Name="Login" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TypeUser" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="first_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="second_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="last_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="date_of_burn" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="id_tainer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_user" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

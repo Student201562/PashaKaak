@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LinqSqlSportClub">
+  <DataContextMoniker Name="/LinqSqlSportClubDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ee91280e-0946-4dbf-9d02-10319575a278" isExpanded="false" absoluteBounds="0.5, 2.625, 2, 0.45">
+      <DataClassMoniker Name="/LinqSqlSportClubDataContext/Trainers" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dedd30d9-054c-4648-958d-7897a5d32ae8" absoluteBounds="0.51500000000000012, 3.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f270e541-1164-4e6b-9fc7-c4bfd9a95a34" isExpanded="false" absoluteBounds="3, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/LinqSqlSportClubDataContext/Methods" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8643cd6f-21fc-4938-bfd1-bc7ca2924805" absoluteBounds="3.0149999999999997, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0d2518e6-1a32-4e85-868c-c92f56f08e1d" isExpanded="false" absoluteBounds="2.875, 2.625, 2, 0.45">
+      <DataClassMoniker Name="/LinqSqlSportClubDataContext/Services" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45695cf2-0fee-4243-8e4b-4d703d22eb66" absoluteBounds="2.8899999999999997, 3.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c7aab783-5514-411e-a327-f2e8cc32bffa" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/LinqSqlSportClubDataContext/Discounts" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c701fc5-3f88-46aa-b4ba-380bb209eefa" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc7fd510-4713-4bfe-bfb4-c875a92adcbf" isExpanded="false" absoluteBounds="0.5, 1.375, 2, 0.45">
+      <DataClassMoniker Name="/LinqSqlSportClubDataContext/Authorization" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd4dc7bc-9e65-47e6-8138-b6177d5d1ec4" absoluteBounds="0.51500000000000012, 1.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
